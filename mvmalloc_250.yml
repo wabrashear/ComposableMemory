@@ -1,0 +1,23 @@
+## mvmalloc parameters
+
+DpmeSocketName: /tmp/dpme_daemon.0
+MmapCapture: true
+MallocCapture: true
+LogNamePrefix: /var/log/memverge/malloc_log
+LogTrace: false
+CommPort: 5678
+
+# Defaults
+#DramTierGB: 10
+#HugepageDram: true
+
+DramTierGB: 250
+HugepageDram: true
+AccessDetectorMode: 4
+PreallocateDram: true
+
+## Other User Configurable Parameters
+# LogTruncate: true|false
+
+## Deprecated parameters
+# LogName <deprecated replaced by LogNamePrefix>

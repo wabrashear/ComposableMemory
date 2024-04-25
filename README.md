@@ -11,3 +11,10 @@ mm                        | Wrapper script for using Memory Machine with mvmallo
 mvmalloc_250.yml          | Yaml file used to configure DRAM tier (250Gb)
 mvmalloc_450.yml          | Yaml file used to configure DRAM tier (450Gb)
 mvmalloc.so               | Library designed by MemVerge to be used with R
+
+# R version and libraries used
+R version 4.2.1
+Packages:
+profmem 0.6.0   
+flexiblas 3.4.0 
+argparse 2.1.5
